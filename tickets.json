@@ -1,0 +1,56 @@
+{
+  "tickets": [
+    {
+      "id":1,
+      "priceRUB": "30046",
+      "priceUSD": "321,23",
+      "priceEUR": "301,01",
+      "transfers": "1",
+      "from":"VVO Владивосток",
+      "fromTime":"09:25",
+      "fromStreet":"9 окт 2018, Пт",
+      "to":"Тель-Авив TLV",
+      "toTime":"11:45",
+      "toStreet":"10 окт 2018, Пт"
+    },
+    {
+      "id":2,
+      "priceRUB": "30046",
+      "priceUSD": "321,23",
+      "priceEUR": "301,01",
+      "transfers": "2",
+      "from":"VVO Владивосток",
+      "fromTime":"09:25",
+      "fromStreet":"9 окт 2018, Пт",
+      "to":"Тель-Авив TLV",
+      "toTime":"11:45",
+      "toStreet":"10 окт 2018, Пт"
+    },
+    {
+      "id":3,
+      "priceRUB": "30046",
+      "priceUSD": "321,23",
+      "priceEUR": "301,01",
+      "transfers": "3",
+      "from":"VVO Владивосток",
+      "fromTime":"09:25",
+      "fromStreet":"9 окт 2018, Пт",
+      "to":"Тель-Авив TLV",
+      "toTime":"11:45",
+      "toStreet":"10 окт 2018, Пт"
+    },
+    {
+      "id":4,
+      "priceRUB": "30046",
+      "priceUSD": "321,23",
+      "priceEUR": "301,01",
+      "transfers": "0",
+      "from":"VVO Владивосток",
+      "fromTime":"09:25",
+      "fromStreet":"9 окт 2018, Пт",
+      "to":"Тель-Авив TLV",
+      "toTime":"11:45",
+      "toStreet":"10 окт 2018, Пт"
+    }
+  ]
+}

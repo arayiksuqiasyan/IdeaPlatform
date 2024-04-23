@@ -1,0 +1,29 @@
+.container {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    border-radius: 4px;
+    background: var(--visula-element-6);
+    border: 1px solid var(--visula-element-3);
+    box-shadow: 0 0 5px var(--visula-element-3);
+
+    .radioGroupWrapper {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .transfers {
+        gap: 10px;
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text-2);
+    }
+}

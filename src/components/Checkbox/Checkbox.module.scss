@@ -1,0 +1,50 @@
+$background-color_2: #ccc;
+$color_1: var(--visula-element-4);
+$color_2: var(--visula-element-3);
+
+.container {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  width: fit-content;
+  position: relative;
+  align-items: center;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color_2;
+
+    svg {
+      fill: $color_1;
+      font-size: 12px;
+    }
+  }
+
+  input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  .label{
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 500;
+  }
+
+  &.checked{
+    .checkmark{
+      border: 1px solid $color_1!important;
+    }
+  }
+}
